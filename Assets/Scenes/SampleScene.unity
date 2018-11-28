@@ -418,6 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1595137566}
   - component: {fileID: 1595137567}
+  - component: {fileID: 1595137568}
   m_Layer: 0
   m_Name: Flashlight
   m_TagString: Untagged
@@ -476,3 +477,15 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1595137568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1595137565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ee1f1ee240ca74e8b317a04102b95b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlight: {fileID: 1595137567}
